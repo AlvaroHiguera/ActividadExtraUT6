@@ -1,0 +1,205 @@
+.pagina {
+  margin: 0;
+  background-color: #f1f3f4;
+}
+.pagina .cabecera {
+  background-color: #79bac1;
+  border: 1px solid #512b58;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.pagina .cuerpo {
+  background-color: #79bac1;
+  border: 1px solid #512b58;
+  /* Smartphones */
+  /* iPads */
+  /* Smartphones (landscape) */
+  /* Smartphones (portrait) */
+  /* Desktops and Laptops */
+  /* Large Screens */
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .pagina .cuerpo {
+    /* Styles */
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .pagina .cuerpo {
+    /* Styles */
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+}
+@media only screen and (min-width: 501px) {
+  .pagina .cuerpo {
+    /* Styles */
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pagina .cuerpo {
+    /* Styles */
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .pagina .cuerpo {
+    /* Styles */
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .pagina .cuerpo {
+    /* Styles */
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+}
+.pagina .cuerpo_top {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-column: 1/4;
+  border: 1px solid #2a7886;
+}
+.pagina .cuerpo_aside1 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-column: 1/2;
+}
+.pagina .cuerpo_main {
+  display: grid;
+  /* Smartphones */
+  /* iPads */
+  /* Smartphones (landscape) */
+  /* Smartphones (portrait) */
+  /* Desktops and Laptops */
+  /* Large Screens */
+  border: 1px solid magenta;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .pagina .cuerpo_main {
+    /* Styles */
+    grid-column: 1/2;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .pagina .cuerpo_main {
+    /* Styles */
+    grid-column: 2/3;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .pagina .cuerpo_main {
+    /* Styles */
+    grid-column: 2/3;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .pagina .cuerpo_main {
+    /* Styles */
+    grid-column: 1/2;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .pagina .cuerpo_main {
+    /* Styles */
+    grid-column: 1/2;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .pagina .cuerpo_main {
+    /* Styles */
+    grid-column: 2/3;
+  }
+}
+.pagina .cuerpo_main_columnacentral {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.pagina .cuerpo_main_intro {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.pagina .cuerpo_main_main {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.pagina .cuerpo_main_outro {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.pagina .cuerpo_aside2 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  /* Smartphones */
+  /* iPads */
+  /* Smartphones (landscape) */
+  /* Smartphones (portrait) */
+  /* Desktops and Laptops */
+  /* Large Screens */
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .pagina .cuerpo_aside2 {
+    /* Styles */
+    grid-column: 1/2;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .pagina .cuerpo_aside2 {
+    /* Styles */
+    grid-column: 3/4;
+  }
+}
+@media only screen and (min-width: 501px) {
+  .pagina .cuerpo_aside2 {
+    /* Styles */
+    grid-column: 3/4;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pagina .cuerpo_aside2 {
+    /* Styles */
+    grid-column: 1/2;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .pagina .cuerpo_aside2 {
+    /* Styles */
+    grid-column: 1/2;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .pagina .cuerpo_aside2 {
+    /* Styles */
+    grid-column: 3/4;
+  }
+}
+.pagina .cuerpo_bot {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-column: 1/4;
+  border: 1px solid #2a7886;
+}
+.pagina .pie {
+  background-color: #79bac1;
+  border: 1px solid #512b58;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
