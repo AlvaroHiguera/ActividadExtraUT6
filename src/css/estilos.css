@@ -1,6 +1,48 @@
 .pagina {
   margin: 0;
+  /* Smartphones */
+  /* iPads */
+  /* Smartphones (landscape) */
+  /* Smartphones (portrait) */
+  /* Desktops and Laptops */
+  /* Large Screens */
   background-color: #f1f3f4;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .pagina {
+    /* Styles */
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .pagina {
+    /* Styles */
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 501px) {
+  .pagina {
+    /* Styles */
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pagina {
+    /* Styles */
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .pagina {
+    /* Styles */
+    font-size: 1.25vw;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .pagina {
+    /* Styles */
+    font-size: 1vw;
+  }
 }
 .pagina .cabecera {
   background-color: #79bac1;
@@ -47,7 +89,7 @@
     grid-template-columns: 100%;
   }
 }
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1000px) {
   .pagina .cuerpo {
     /* Styles */
     display: grid;
@@ -108,7 +150,7 @@
     grid-column: 1/2;
   }
 }
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1000px) {
   .pagina .cuerpo_main {
     /* Styles */
     grid-column: 1/2;
@@ -175,7 +217,7 @@
     grid-column: 1/2;
   }
 }
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1000px) {
   .pagina .cuerpo_aside2 {
     /* Styles */
     grid-column: 1/2;
